@@ -112,7 +112,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 style: const TextStyle(fontSize: 20),
                               ),
                             ),
-                            subtitle: const Text('Auto Detect',style: TextStyle(fontSize: 10),),
+                            subtitle: const Text(
+                              'Auto Detect',
+                              style: TextStyle(fontSize: 10),
+                            ),
                           ),
                         ),
                       ),
@@ -128,11 +131,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         icon: const Icon(Icons.keyboard_arrow_down),
                         hint: Text(
                           dropdowntext,
-                          style: const TextStyle(color: Colors.white,
-                          fontSize: 15),
+                          style: const TextStyle(
+                              color: Colors.white, fontSize: 15),
                         ),
                         dropdownColor: const Color.fromARGB(255, 255, 255, 255),
-                        style: const TextStyle(color: Color.fromARGB(255, 0, 0, 0), fontSize: 20),
+                        style: const TextStyle(
+                            color: Color.fromARGB(255, 0, 0, 0), fontSize: 20),
                         items: _languages.map((String dropDownStringItem) {
                           return DropdownMenuItem(
                             value: dropDownStringItem,
@@ -163,6 +167,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   subtitle: const Center(child: Text('Tap me!')),
                   onTap: () {
                     _detectLanguage(languageController.text.toString());
+                    // print(_detectedLanuguage);
                     // ignore: avoid_print
                     print(_languages);
                     _translateText(languageController.text.toString(),
