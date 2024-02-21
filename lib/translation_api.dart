@@ -94,7 +94,7 @@ Future<String> translateText(String text, String targetLanguage,
     final dio = Dio();
 
     dio.options.headers.addAll({
-      'Content-Type': contentType,
+      //'Content-Type': contentType,
       'Accept-Encoding': accept_Encoding,
       'X-Rapidapi-Key': _apikey,
       'X-Rapidapi-Host': host,

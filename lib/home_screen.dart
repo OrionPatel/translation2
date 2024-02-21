@@ -132,7 +132,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           fontSize: 15),
                         ),
                         dropdownColor: const Color.fromARGB(255, 255, 255, 255),
-                        style: const TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 20),
+                        style: const TextStyle(color: Color.fromARGB(255, 0, 0, 0), fontSize: 20),
                         items: _languages.map((String dropDownStringItem) {
                           return DropdownMenuItem(
                             value: dropDownStringItem,
