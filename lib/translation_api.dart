@@ -1,18 +1,18 @@
 import 'package:dio/dio.dart';
 
-final String _apikey = "";
-final ContentType = "";
-final Accept_Encoding = "";
-final host = "";
-final url = "";
+const String _apikey = "350ea5a75emsh78b2de01ad544b1p182c18jsnc50108772d70";
+const contentType = "application/x-www-form-urlencoded";
+const accept_Encoding = "application/gzip";
+const host = "google-translate1.p.rapidapi.com";
+const url = "https://google-translate1.p.rapidapi.com/language/translate/v2/languages";
 
 Future<List<String>> fetchLanguages() async {
   try {
     final dio = Dio();
 
     dio.options.headers.addAll({
-      'Content-Type': ContentType,
-      'Accept-Encoding': Accept_Encoding,
+      'Content-Type': contentType,
+      'Accept-Encoding': accept_Encoding,
       'X-Rapidapi-Key': _apikey,
       'X-Rapidapi-Host': host,
     });
@@ -46,8 +46,8 @@ Future<String> detectLanguage(String text) async {
     final dio = Dio();
 
     dio.options.headers.addAll({
-      'Content-Type': ContentType,
-      'Accept-Encoding': Accept_Encoding,
+      'Content-Type': contentType,
+      'Accept-Encoding': accept_Encoding,
       'X-Rapidapi-Key': _apikey,
       'X-Rapidapi-Host': url,
     });
@@ -94,8 +94,8 @@ Future<String> translateText(String text, String targetLanguage,
     final dio = Dio();
 
     dio.options.headers.addAll({
-      'Content-Type': ContentType,
-      'Accept-Encoding': Accept_Encoding,
+      'Content-Type': contentType,
+      'Accept-Encoding': accept_Encoding,
       'X-Rapidapi-Key': _apikey,
       'X-Rapidapi-Host': host,
     });
