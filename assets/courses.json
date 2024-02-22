@@ -1,0 +1,128 @@
+[
+        {
+            "department": "Computer Science",
+            "year": "First Year",
+            "courseCode": "Computer Science F111",
+            "courseName": "CP"
+        },
+        {
+            "department": "Computer Science",
+            "year": "Second Year",
+            "courseCode": "Computer Science F211",
+            "courseName": "DSA"
+        },
+        {
+            "department": "Computer Science",
+            "year": "Second Yeart",
+            "courseCode": "Computer Science F212",
+            "courseName": "DBS"
+        },
+        {
+            "department": "Computer Science",
+            "year": "Second Year",
+            "courseCode": "Computer Science F213",
+            "courseName": "LIComputer Science"
+        },
+        {
+            "department": "Computer Science",
+            "year": "Third Year",
+            "courseCode": "Computer Science F303",
+            "courseName": "Comp. Networks"
+        },
+        {
+            "department": "Computer Science",
+            "year": "Third Year",
+            "courseCode": "Computer Science F342",
+            "courseName": "Comp. Arch."
+        },
+        {
+            "department": "Computer Science",
+            "year": "Fourth Year",
+            "courseCode": "Computer Science F411",
+            "courseName": "Practice School -1"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "First Year",
+            "courseCode": "EEE F111",
+            "courseName": "ES"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "Second Year",
+            "courseCode": "EEE F241",
+            "courseName": "MUP"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "Second Year",
+            "courseCode": "EEE F242",
+            "courseName": "Control Systems"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "Second Year",
+            "courseCode": "EEE F243",
+            "courseName": "SAS"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "Third Year",
+            "courseCode": "EEE F312",
+            "courseName": "Power Systems"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "Third Year",
+            "courseCode": "EEE F313",
+            "courseName": "ADVD"
+        },
+        {
+            "department": "Electrical Engineering",
+            "year": "Fourth Year",
+            "courseCode": "EEE F411",
+            "courseName": "Practice School -1"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "First Year",
+            "courseCode": "ME F112",
+            "courseName": "Workshop Practice"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "Second Year",
+            "courseCode": "ME F218",
+            "courseName": "Advanced Mechanical Engineering"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "Second Year",
+            "courseCode": "ME F219",
+            "courseName": "Manu. Process"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "Second Year",
+            "courseCode": "ME F220",
+            "courseName": "Heat Transfer"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "Third Year",
+            "courseCode": "ME F318",
+            "courseName": "Comp. aided Design"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "Third Year",
+            "courseCode": "ME F319",
+            "courseName": "Vibrations and Control"
+        },
+        {
+            "department": "Mechanical Engineering",
+            "year": "Fourth Year",
+            "courseCode": "ME F411",
+            "courseName": "Practice School -1"
+        }
+]
